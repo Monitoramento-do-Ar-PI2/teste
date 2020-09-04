@@ -1,6 +1,6 @@
 ---
 name: Issue padrão
-about: Suggest an idea for this project
+about: Outras issues
 title: ''
 labels: ''
 assignees: ''
