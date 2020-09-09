@@ -11,7 +11,9 @@ assignees: ''
 
 **Descrição:**
 
-Descrever aqui o que deve ser feito
+- [ ] Tarefa 1
+- [ ] Tarefa 2
+- [ ] Tarefa 3
 
 **Critérios de aceitação:**
 
