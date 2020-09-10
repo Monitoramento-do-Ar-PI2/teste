@@ -1,0 +1,25 @@
+site_name: Monitoramento do Ar
+theme: 
+  name: null
+  custom_dir: 'cinder'
+
+pages:
+  - Home: index.md
+
+  - O Projeto:
+    - Documento de Visão: 'Projeto/doc-visao.md'
+
+  - Elétrica:
+    - About: 'Eletrica/about.md'
+    - Documentação: 'Eletrica/doc.md'
+  
+  - Estrutura: 
+    - About: 'Estrutura/estrutura.md'
+    - Documentação: 'Estrutura/doc.md'
+
+  - Software: 
+    - About: 'Software/software.md'
+    - Documentação: 'Software/doc.md'
+
+
+  - Other Pages: index.md
