@@ -20,6 +20,7 @@ pages:
   - Software: 
     - About: 'Software/software.md'
     - Documentação: 'Software/doc.md'
+    - Mapeamento do Processo: 'Software/processo.md'
 
 
   - Other Pages: index.md
