@@ -19,7 +19,7 @@ pages:
 
   - Software: 
     - About: 'Software/software.md'
-    - Documentação: 'Software/doc.md'
+    - Arquitetura: 'Software/arquitetura.md'
 
 
   - Other Pages: index.md
