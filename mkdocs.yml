@@ -20,6 +20,7 @@ pages:
   - Software: 
     - About: 'Software/software.md'
     - Arquitetura: 'Software/arquitetura.md'
+    - Principais decisões do projeto: 'Software/decisoes.md'
 
 
   - Other Pages: index.md
