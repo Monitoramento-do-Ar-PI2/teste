@@ -8,6 +8,7 @@ pages:
 
   - O Projeto:
     - Documento de Visão: 'Projeto/doc-visao.md'
+    - Termo de Abertura do Projeto: 'Projeto/tap.md'
 
   - Elétrica:
     - About: 'Eletrica/about.md'
