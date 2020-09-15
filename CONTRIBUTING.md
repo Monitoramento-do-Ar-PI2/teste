@@ -35,7 +35,7 @@ Veja a política de merges no tópico [Merges para dev](CONTRIBUTING.md#merges-p
 
 #### Nome das Branches
 
-As branchs de desenvolvimento de features serão criadas a partir da branch *development* com a nomenclatura padrão `#x_nome_da_issue`, onde o `x` representa o código de rastreio da issue.
+As branchs de desenvolvimento de features serão criadas a partir da branch *development* com a nomenclatura padrão `nome_da_issue_#x`, onde o `x` representa o código de rastreio da issue.
 
 ### Política de Commits
 
