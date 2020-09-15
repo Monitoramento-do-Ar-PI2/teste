@@ -21,7 +21,9 @@ pages:
   - Software: 
     - About: 'Software/software.md'
     - Arquitetura: 'Software/arquitetura.md'
+    - Mapeamento do Processo: 'Software/processo.md'
     - Principais decisões do projeto: 'Software/decisoes.md'
+
 
 
   - Other Pages: index.md
