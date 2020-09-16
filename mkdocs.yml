@@ -11,8 +11,8 @@ pages:
     - Termo de Abertura do Projeto: 'Projeto/tap.md'
 
   - Elétrica:
-    - About: 'Eletrica/about.md'
     - Documentação: 'Eletrica/doc.md'
+    - Proposta de Solução: 'Eletrica/solucao.md'
   
   - Estrutura: 
     - About: 'Estrutura/estrutura.md'
