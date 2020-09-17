@@ -155,6 +155,10 @@ Além dessas, existem vários outros aplicativos que trazem algum tipo de monito
 
 ## 4. Visão Geral do Produto
 
+
+![](./img/Group3.png)
+
+
 ### 4.1 Perspectiva do Produto
 
 O Zéfiro é um monitorador de qualidade do ar, que funciona de maneira autônoma, captando os gases por sensores e os armazenando em uma nuvem para transmitir para um central, onde esses dados serão processados e enviados para fomentar relatórios regidos pela norma do CONAMA e para também o aplicativo de uso da população para avaliar a poluição atmosférica de acordo com doenças que podem sofrer pioras clínicas devido a má qualidade do ar.
