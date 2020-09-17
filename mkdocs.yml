@@ -11,7 +11,6 @@ pages:
     - Termo de Abertura do Projeto: 'Projeto/tap.md'
 
   - Elétrica:
-    - Documentação: 'Eletrica/doc.md'
     - Proposta de Solução: 'Eletrica/solucao.md'
   
   - Estrutura: 
@@ -19,10 +18,10 @@ pages:
     - Documentação: 'Estrutura/doc.md'
 
   - Software: 
-    - About: 'Software/software.md'
     - Arquitetura: 'Software/arquitetura.md'
     - Mapeamento do Processo: 'Software/processo.md'
-    - Principais decisões do projeto: 'Software/decisoes.md'
+    - Principais Decisões do Projeto: 'Software/decisoes.md'
+    - Proposta de Solução: 'Software/solucao.md'
 
 
 
