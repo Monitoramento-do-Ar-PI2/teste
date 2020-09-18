@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>Principais Decisões do Projeto - Monitoramento do Ar</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">Monitoramento do Ar</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">O Projeto <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Projeto/doc-visao/">Documento de Visão</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/tap/">Termo de Abertura do Projeto</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elétrica <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Eletrica/solucao/">Proposta de Solução</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Estrutura/solucao/">Proposta de Solução</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../arquitetura/">Arquitetura</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../processo/">Mapeamento do Processo</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Principais Decisões do Projeto</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../solucao/">Proposta de Solução</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../processo/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../solucao/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#principais-decisoes-do-projeto">Principais decisões do projeto</a></li>
+            <li class="second-level"><a href="#desenvolver-uma-skill-da-alexa">Desenvolver uma skill da Alexa</a></li>
+                
+            <li class="second-level"><a href="#utilizar-arquitetura-de-microsservicos-e-microfrontend">Utilizar arquitetura de microsserviços e microfrontend</a></li>
+                
+            <li class="second-level"><a href="#desenvolver-um-aplicativo">Desenvolver um aplicativo</a></li>
+                
+            <li class="second-level"><a href="#utilizar-como-publico-alvo-pessoas-portadoras-de-doenca-respiratoria">Utilizar como público-alvo pessoas portadoras de doença respiratória</a></li>
+                
+            <li class="second-level"><a href="#estruturar-o-escopo-de-funcionalidades-com-base-nos-ods-da-agenda-2030">Estruturar o escopo de funcionalidades com base nos ODS da Agenda 2030</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="principais-decisoes-do-projeto">Principais decisões do projeto</h1>
+<h2 id="desenvolver-uma-skill-da-alexa"><strong>Desenvolver uma skill da Alexa</strong></h2>
+<p>Como principal fator de inovação para o tema do projeto será desenvolvido uma skill para Alexa da Amazon. Esta é uma assistente virtual personalizada e controlada por voz, que tem ganhado rápida popularidade nos últimos anos. </p>
+<p>A literatura indica algumas projeções de inteligência artificial conversacional juntamente com um guia dos cinco níveis de assistentes de IA, e isso pode ser visto na figura abaixo. </p>
+<p>A Alexa possui como classificação o nível 4, já que neste existe um grau de aprendizado amadurecido que faz com que a IA entre em contato e fale de forma proativa com base em contexto. Para isso, ela lembrará das preferências do usuário e fornecerá uma interface personalizada definitiva.</p>
+<p><img src="./img/5level.png" width="450" height="450" /></p>
+<p>(Fonte: https://blog.rasa.com/conversational-ai-your-guide-to-five-levels-of-ai-assistants-in-enterprise/)</p>
+<p>Em um estudo realizado em 2018 foi revelado o uso da Alexa se concentrou em verificar as previsões do tempo, em tocar música e controlar outros dispositivos, independente da faixa etária do usuário. </p>
+<p>(Fonte: https://journals.sagepub.com/doi/10.1177/0961000618759414#articleCitationDownloadContainer). </p>
+<p>Já no relatório feito pela consultoria eMarketer os resultados indicaram que a Alexa da Amazon seguirá na liderança do mercado de assistentes pessoais até 2021 controlando mais da metade de toda a indústria. Dentre as justificativas para essa projeção estão as constantes atualizações que a assistente recebe, - o que aumenta sua efetividade em comparação com concorrentes como o Google Assistente; e também a abertura para que desenvolvedores externos criem suas próprias skills compatíveis com dispositivos de outras marcas.</p>
+<p>(Fonte: https://veja.abril.com.br/tecnologia/alexa-da-amazon-deve-manter-lideranca-no-mercado-de-assistentes-pessoais/)</p>
+<h2 id="utilizar-arquitetura-de-microsservicos-e-microfrontend"><strong>Utilizar arquitetura de microsserviços e microfrontend</strong></h2>
+<p>O estilo arquitetural de microsserviços é uma abordagem que visa implementar uma aplicação como uma suíte de pequenos serviços, onde cada um executa um processo próprio e se comunica, geralmente, com requests HTTP. Em 2016, o termo micro frontend foi falado pela primeira vez no Thoughtworks Technology Radar, com o intuito de estender o conceito de microsserviços para o desenvolvimento frontend, onde cada uma desses “serviços” precisam ser completamente isolados dos outros com tecnologias e objetivos próprios.</p>
+<p>Tendo em vista as principais características desses dois estilos arquiteturais, o app Zéfiro será criado com base neles. Teremos um microsserviço para o backend, chamado de Zéfiro API e dois micro frontends sendo eles, o Zéfiro APP e o Zéfiro Alexa Skills. Cada um desses três serviços terão seu próprio repositório, de forma que estes possuam ambiente de desenvolvimento, tecnologias, integração contínua e deploy específicos. </p>
+<p>O software Zéfiro será dividido em três serviços independentes:</p>
+<ul>
+<li>Zéfiro APP</li>
+<li>Zéfiro Alexa Skills</li>
+<li>Zéfiro API</li>
+</ul>
+<h2 id="desenvolver-um-aplicativo"><strong>Desenvolver um aplicativo</strong></h2>
+<p>De acordo com o Mobile Globe Report, os usuários têm passado mais tempo conectados a internet a partir dos seus celulares, do que em outros tipos de dispositivos. Comprovadamente, o celular é usado por mais de 67% da população, o que representa cerca de dois terços do mundo, com mais de 5,2 bilhões de pessoas.</p>
+<p>Segundo dados obtidos através desta pesquisa, a média do tempo dedicado ao celular chega a ser de 30 a 40 horas semanais. As conexões a partir de smartphones tiveram um aumento de 6,20% em 2019, comparado a 2018. Países que apresentam uma média alta no tempo das suas conexões, geralmente são aqueles que contam com uma experiência positiva no uso de aplicativos móveis. </p>
+<p>(Fonte:https://www.comscore.com/por/Insights/Apresentacoes-e-documentos/2015/The-Global-Mobile-Report)</p>
+<p>Dessa forma, surge a ideia de desenvolver um aplicativo mobile utilizando a tecnologia Flutter para que os usuários, sobretudo, àqueles que foram acometidos por doenças respiratórias consigam ter acesso rápido e prático a informações confiáveis sobre a qualidade do ar. Dentre algumas funcionalidades, temos o envio de notificações quando o índice de qualidade do ar estiver crítico para a saúde, exibição de gráficos com histórico da qualidade do ar nos últimos 7 dias, envio de alertas quando houver presença de fumaça no ar, recomendações de saúde e atividades para os usuários do aplicativo, dentre outras.</p>
+<h2 id="utilizar-como-publico-alvo-pessoas-portadoras-de-doenca-respiratoria"><strong>Utilizar como público-alvo pessoas portadoras de doença respiratória</strong></h2>
+<p>Com cerca de 4,5 milhões de óbitos anuais as doenças respiratórias crônicas representam cerca de 7% da mortalidade global. Apenas no Brasil, no ano de 2011, estas foram a terceira causa de morte no conjunto de doenças crônicas não transmissíveis. Além de provocar limitações físicas, emocionais e intelectuais, as DRC foram classificadas como responsáveis por 4% de todos os anos de vida perdidos ajustados por incapacidade em todo o mundo, de acordo com a Organização Mundial da Saúde. 
+(Fonte:http://www.saude.gov.br/images/pdf/2016/maio/06/2015-026-doencas-respiratorias-cronicas.pdf)</p>
+<p>A poluição atmosférica pode ser altamente nociva à saúde, assim como a fauna e flora. O monóxido de carbono, por exemplo, diminui a capacidade do sangue de transportar oxigênio, causando hipóxia tecidual, o ozônio, por ser oxidante e citotóxico, causa irritação nos olhos e diminuição na capacidade pulmonar, já o dióxido de enxofre e de nitrogênio podem causar graves irritações nas vias aéreas. Além disso, a poluição pode causar piores quadros de asma, infecções das vias aéreas, incidência de câncer de pulmão e doenças cardiovasculares. Um terço das mortes por derrame, câncer de pulmão e o doenças cardíacas se deve à poluição atmosférica,  sendo que em janeiro de 2019 a OMS apontou a poluição do ar como primeiro ponto de prioridade de saúde para os próximos 5 anos.<br />
+(Fonte:https://www.saudeesustentabilidade.org.br/acoes/lancamento-da-analise-do-monitoramento-da-qualidade-do-ar-no-brasil-2019/)</p>
+<p>Considerando as conexões entre as mudanças climáticas, emissão de poluentes e impactos na saúde, é perceptível que há uma necessidade global urgente em desenvolver e adotar ferramentas de comunicação de saúde pública, tanto em nível individual quanto governamental, para ajudar pessoas vulneráveis a reduzir sua exposição à efeitos da baixa qualidade do ar e possibilitar o acesso à informação. O uso da tecnologia é uma solução possível, com os aplicativos para dispositivos mobile e assistentes virtuais personalizados desempenhando um papel importante na conscientização e apoio aos mais diversos grupos sociais. </p>
+<h2 id="estruturar-o-escopo-de-funcionalidades-com-base-nos-ods-da-agenda-2030"><strong>Estruturar o escopo de funcionalidades com base nos ODS da Agenda 2030</strong></h2>
+<p>A Agenda 2030 para o Desenvolvimento Sustentável corresponde a um conjunto de programas, ações e diretrizes que orientam os trabalhos das Nações Unidas e de seus países membros rumo ao desenvolvimento sustentável. Ela é composta por 17 Objetivos do Desenvolvimento Sustentável (ODS) e 169 metas correspondentes, fruto do consenso obtido pelos delegados dos Estados Membros da ONU. </p>
+<p>(Fonte: http://www.comciencia.br/o-que-e-agenda-2030-das-nacoes-unidas-e-quais-sao-os-objetivos-de-desenvolvimento-sustentavel/)</p>
+<p>Dentre os Objetivos de Desenvolvimento Sustentável elencados pela ONU, os três principais que se relacionam diretamente com o escopo de funcionalidades do nosso aplicativo e também da skill Alexa são:</p>
+<p><img src="./img/ods3.png" width="200" height="200" /></p>
+<p><strong>Objetivo 3</strong>: Assegurar uma vida saudável e promover o bem-estar para todas e todos, em todas as idades</p>
+<p><strong>Meta 3.9</strong>: Até 2030, reduzir substancialmente o número de mortes e doenças por produtos químicos perigosos, contaminação e poluição do ar e água do solo</p>
+<p><img src="./img/ods12.png" width="200" height="200" /></p>
+<p><strong>Objetivo 12</strong>: Assegurar padrões de produção e de consumo sustentáveis</p>
+<p><strong>Meta 12.8</strong>: Até 2030, garantir que as pessoas, em todos os lugares, tenham informação relevante e conscientização para o desenvolvimento sustentável e estilos de vida em harmonia com a natureza</p>
+<p><img src="./img/ods13.jpg" width="200" height="200" /></p>
+<p><strong>Objetivo 13</strong>: Tomar medidas urgentes para combater a mudança climática e seus impactos</p>
+<p><strong>Meta 13.b</strong>: Promover mecanismos para a criação de capacidades para o planejamento relacionado à mudança do clima e à gestão eficaz, nos países menos desenvolvidos, inclusive com foco em mulheres, jovens, comunidades locais e marginalizadas</p></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

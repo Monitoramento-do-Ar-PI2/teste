@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>About - Monitoramento do Ar</title>
+    <title>Proposta de Solução - Monitoramento do Ar</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -83,24 +83,9 @@
 </li>
 
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elétrica <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
                             
 <li >
-    <a href="../../Eletrica/about/">About</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../Eletrica/doc/">Documentação</a>
+    <a href="../../Projeto/tap/">Termo de Abertura do Projeto</a>
 </li>
 
                         
@@ -110,18 +95,27 @@
                 
                 
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elétrica <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li class="active">
-    <a href="./">About</a>
+    <a href="./">Proposta de Solução</a>
 </li>
 
                         
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
                             
 <li >
-    <a href="../doc/">Documentação</a>
+    <a href="../../Estrutura/solucao/">Proposta de Solução</a>
 </li>
 
                         
@@ -136,23 +130,29 @@
                         
                             
 <li >
-    <a href="../../Software/software/">About</a>
+    <a href="../../Software/arquitetura/">Arquitetura</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../Software/doc/">Documentação</a>
+    <a href="../../Software/processo/">Mapeamento do Processo</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Software/decisoes/">Principais Decisões do Projeto</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Software/solucao/">Proposta de Solução</a>
 </li>
 
                         
                         </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../..">Other Pages</a>
                     </li>
                 
                 
@@ -165,12 +165,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../../Eletrica/doc/">
+                        <a rel="prev" href="../../Projeto/tap/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../doc/">
+                        <a rel="next" href="../../Estrutura/solucao/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -184,12 +184,49 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#estrutura">Estrutura</a></li>
+        <li class="first-level active"><a href="#proposta-de-solucao">Proposta de Solução</a></li>
+            <li class="second-level"><a href="#1-requisitos">1. Requisitos</a></li>
+                
+                <li class="third-level"><a href="#11-requisitos-de-eletronica">1.1 Requisitos de Eletrônica</a></li>
+                <li class="third-level"><a href="#12-requisitos-de-energia">1.2 Requisitos de Energia</a></li>
+            <li class="second-level"><a href="#2-solucao-de-eletrica">2. Solução de Elétrica</a></li>
+                
+                <li class="third-level"><a href="#21-instrumentacao-eletronica">2.1 Instrumentação eletrônica</a></li>
+                <li class="third-level"><a href="#22-embarcados">2.2 Embarcados</a></li>
+                <li class="third-level"><a href="#23-sistema-fotovoltaico">2.3 Sistema Fotovoltaico</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="estrutura">Estrutura</h1></div>
+<h1 id="proposta-de-solucao">Proposta de Solução</h1>
+<p>Para as propostas de solução fora levantados os requisitos dos subsistemas do projeto. Após isso as diretorias se reuniram e elaboraram uma proposta de solução.</p>
+<h2 id="1-requisitos">1. Requisitos</h2>
+<h3 id="11-requisitos-de-eletronica">1.1 Requisitos de Eletrônica</h3>
+<ul>
+<li>Realização do controle do sensoriamento solar;</li>
+<li>Detecção solar;</li>
+<li>Comunicação com a internet;</li>
+<li>Armazenamento de dados caso falha de conexão com a nuvem;</li>
+<li>Envio de dados tratados para nuvem;</li>
+<li>Medição de gases poluentes: Dióxido de enxofre (SO 2 ), Dióxido de Nitrogênio (NO 2 ), Ozônio (O 3 ), Monóxido de carbono (CO) e Fumaça;</li>
+<li>Medição de Partículas: MP2,5 e MP10;</li>
+<li>Medição de temperatura, umidade e pressão do ar.</li>
+</ul>
+<h3 id="12-requisitos-de-energia">1.2 Requisitos de Energia</h3>
+<ul>
+<li>A alimentação deve ser baseada em painéis fotovoltaicos;</li>
+<li>Baterias devem dar autonomia energética para dias nublados e noites;</li>
+<li>O sistema fotovoltaico deve ser implementado com sensoriamento solar;</li>
+</ul>
+<h2 id="2-solucao-de-eletrica">2. Solução de Elétrica</h2>
+<p>A solução proposta para a área elétrica é dividida em Eletrônica e Energia. A Eletrônica foi dividida em dois sistemas denominados: Instrumentação eletrônica e Embarcados, já a Energia conta com um componente o sistema fotovoltaico.</p>
+<h3 id="21-instrumentacao-eletronica">2.1 Instrumentação eletrônica</h3>
+<p>É responsável pela coleta de dados de interesse, realizando aquisição e condicionamento do sinal para disponibilização para o microcontrolador/microprocessador. Os dados de interesse são: gases e partículas poluentes, fumaça, posição solar, temperatura, umidade e pressão. Por tanto, deve-se ser escolhido sensores que permitam a leitura destes dados e que se adequem ao escopo da estrutura. O condicionamento deve adequar o sinal adquirido pelos sensores para o microcontrolador/microprocessador escolhido, além de realizar uma pré-filtragem.</p>
+<p><img alt="Figura 1 – Conjunto de sensores de gases da Alphasense." src="../img/air_alpha.jpg" /></p>
+<h3 id="22-embarcados">2.2 Embarcados</h3>
+<p>É o componente que realiza o processamento do dados coletados e disponibiliza na API do Zéfiro para uso do cliente e da aplicação. Também é responsável pela automatização da instrumentação eletrônica e da alimentação sustentável. A automatização da instrumentação eletrônica busca gerenciar as leituras dos sensores de forma que não se tenha uma leitura excessiva de dados e que ocorra o menor gasto energético possível. Para a alimentação sustentável é necessário o controle do sistema de sensoriamento solar. Os dados para a nuvem devem ser disponibilizados de forma que a informação seja simplificada e já processada.</p>
+<h3 id="23-sistema-fotovoltaico">2.3 Sistema Fotovoltaico</h3>
+<p>Esse componente de solução é o que permite a autonomia da estação; ele compreende um sistema fotovoltaico off-grid e o sensoriamento solar. O sistema fotovoltaico deverá suprir a potência requisitada pelo sistema eletrônico, a proposta de sensoriamento solar visa aumentar o grau de eficiência da aquisição de energia.</p></div>
         
         
     </div>
