@@ -14,8 +14,7 @@ pages:
     - Proposta de Solução: 'Eletrica/solucao.md'
   
   - Estrutura: 
-    - About: 'Estrutura/estrutura.md'
-    - Documentação: 'Estrutura/doc.md'
+    - Proposta de Solução: 'Estrutura/solucao.md'
 
   - Software: 
     - Arquitetura: 'Software/arquitetura.md'
