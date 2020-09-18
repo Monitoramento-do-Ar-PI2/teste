@@ -8,18 +8,17 @@ pages:
 
   - O Projeto:
     - Documento de Visão: 'Projeto/doc-visao.md'
+    - Termo de Abertura do Projeto: 'Projeto/tap.md'
 
   - Elétrica:
-    - About: 'Eletrica/about.md'
-    - Documentação: 'Eletrica/doc.md'
+    - Proposta de Solução: 'Eletrica/solucao.md'
   
   - Estrutura: 
-    - About: 'Estrutura/estrutura.md'
-    - Documentação: 'Estrutura/doc.md'
+    - Proposta de Solução: 'Estrutura/solucao.md'
 
   - Software: 
-    - About: 'Software/software.md'
-    - Documentação: 'Software/doc.md'
+    - Arquitetura: 'Software/arquitetura.md'
+    - Mapeamento do Processo: 'Software/processo.md'
+    - Principais Decisões do Projeto: 'Software/decisoes.md'
+    - Proposta de Solução: 'Software/solucao.md'
 
-
-  - Other Pages: index.md
