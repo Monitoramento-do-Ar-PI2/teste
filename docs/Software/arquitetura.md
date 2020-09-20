@@ -9,7 +9,8 @@
 |09/09/2020|1.0|Definição da arquitetura e tecnologias|Amanda Muniz e Vitor Cardoso|
 |11/09/2020|1.1|Criação dos diagramas de pacotes|Amanda Muniz e Vitor Cardoso|
 |13/09/2020|1.2|Criação do diagrama de classes e refatoração do diagrama de relações|Amanda Muniz, Luciana Ribeiro e Calebe Rios|
-|20/09/2020|1.3|Criação do tópico 1 e refatoração do diagrama de relações|Amanda Muniz|
+|20/09/2020|1.3|Criação dos tópicos 1, 3 e 4|Amanda Muniz|
+
 
 # 1. Introdução
 ## 1.1 Finalidade
@@ -105,3 +106,16 @@ As principais alternativas à escolha do flutter são: React-Native e desenvolvi
 ### 2.3.5 Google Maps API
 
 <p align="justify">&emsp;&emsp;Trabalhar com dados relacionados ao monitoramento da qualidade do ar, através de estações distribuídas geograficamente, traz a necessidade da obtenção dos respectivos dados geográficos. O Google Maps Platform possui diversos serviços para fornecimento deste tipo de dado, e o valor cobrado é proporcional ao uso. É uma plataforma de alta disponibilidade e confiabilidade, além de fornecer um crédito mensal gratuito, disponibiliza serviços para fornecimento de mapas estáticos e dinâmicos, gratuitamente, dentro da taxa de uso estabelecida, para uso em dispositivos móveis.</p>
+
+# 3. Metas e Restrições de Arquitetura
+
+## 3.1 Restrições Tecnológicas
+
+<p align="justify">&emsp;&emsp;Para o desenvolvimento do Zéfiro serão utilizadas as seguintes tecnologias:</p>
+
+- Alexa Skills Kit: Conjuntos de ferramentas disponibilizados pela Amazon usados para a criação de novas skills.
+- Dart: Linguagem base utilizada no Flutter.
+- Flutter: Framework para desenvolvimento mobile.
+- JavaScript: Linguagem base utilizada no NodeJS.
+- NodeJS: Plataforma de aplicação utilizada no desenvolvimento do backend.
+- MongoDB: Software utilizado para o banco de dados.
