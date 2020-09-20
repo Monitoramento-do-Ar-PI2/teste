@@ -116,6 +116,34 @@ As principais alternativas à escolha do flutter são: React-Native e desenvolvi
 - Alexa Skills Kit: Conjuntos de ferramentas disponibilizados pela Amazon usados para a criação de novas skills.
 - Dart: Linguagem base utilizada no Flutter.
 - Flutter: Framework para desenvolvimento mobile.
-- JavaScript: Linguagem base utilizada no NodeJS.
+- Javascript: Linguagem base utilizada no NodeJS.
 - NodeJS: Plataforma de aplicação utilizada no desenvolvimento do backend.
 - MongoDB: Software utilizado para o banco de dados.
+
+# 4. Visão Lógica
+
+## 4.1 Visão Geral
+
+<p align="justify">&emsp;&emsp;O software Zéfiro é construído utilizando a tecnologia Flutter na linguagem Dart e o kit de skills da Alexa, sobre a plataforma NodeJS em linguegem Javascript na API. O objetivo da Alexa Skills Kit é disponibilizar ferramentas para a criação de softwares que extraiam a intenção do usuário através de comandos de voz e retornem algo de valor. O Zéfiro terá uma versão mobile e uma versão por comando de voz que usarão dados recebidos do Zéfiro API. Este será desenvolvido na plataforma NodeJS, que é um ambiente de tempo de execução que executa o código em Javascript para escrever ferramentas de linha de comando e para scripst do lado do servidor, capaz de executar uma entrada/saída assícronna, que permite que outro processamento continue antes que a transmissão tenha encerrado. </p>
+
+## 4.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
+
+### 4.2.1 Diagrama de pacotes
+
+![](./img/pacote1.png)
+
+Diagrama de pacotes do Zéfiro-APP
+
+![](./img/pacote2.png)
+
+Diagrama de pacotes do Zéfiro-API
+
+### 4.2.2 Diagrama de Classes
+
+![](./img/classes.png)
+
+Diagrama de classes do Zéfiro-API
+
+
+
+
