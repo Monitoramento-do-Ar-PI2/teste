@@ -9,7 +9,9 @@ pages:
   - O Projeto:
     - Documento de Visão: 'Projeto/doc-visao.md'
     - Termo de Abertura do Projeto: 'Projeto/tap.md'
-
+    - Plano de Comunicação: 'Projeto/comunicacao.md'
+    - Plano de Metodologia: 'Projeto/metodologia.md'
+    
   - Elétrica:
     - Proposta de Solução: 'Eletrica/solucao.md'
   
