@@ -11,6 +11,7 @@ pages:
     - Termo de Abertura do Projeto: 'Projeto/tap.md'
     - Plano de Comunicação: 'Projeto/comunicacao.md'
     - Plano de Metodologia: 'Projeto/metodologia.md'
+    - Plano de Riscos: 'Projeto/riscos.md'
     
   - Elétrica:
     - Proposta de Solução: 'Eletrica/solucao.md'
