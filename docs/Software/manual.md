@@ -1,5 +1,7 @@
 # Manual de Identidade Visual
 
+Este é um guia técnico para uso dos padrões visuais e verbais na comunicação da nossa marca Zéfiro.
+
 ![](./img/miv1.png) 
 
 ![](./img/miv2.png)
