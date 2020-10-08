@@ -12,7 +12,8 @@ pages:
     - Plano de Comunicação: 'Projeto/comunicacao.md'
     - Plano de Metodologia: 'Projeto/metodologia.md'
     - Plano de Riscos: 'Projeto/riscos.md'
-    
+    - Plano de Gerenciamento de Comunicação: 'Projeto/comunicacao.md'
+
   - Elétrica:
     - Proposta de Solução: 'Eletrica/solucao.md'
   
@@ -24,4 +25,7 @@ pages:
     - Mapeamento do Processo: 'Software/processo.md'
     - Principais Decisões do Projeto: 'Software/decisoes.md'
     - Proposta de Solução: 'Software/solucao.md'
+    - Manual de Identidade Visual: 'Software/manual.md'
 
+
+  - Other Pages: index.md
