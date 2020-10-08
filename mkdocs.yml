@@ -3,12 +3,13 @@ theme:
   name: null
   custom_dir: 'cinder'
 
-pages:
+nav:
   - Home: index.md
 
   - O Projeto:
     - Documento de Visão: 'Projeto/doc-visao.md'
     - Termo de Abertura do Projeto: 'Projeto/tap.md'
+    - Plano de Gerenciamento de Comunicação: 'Projeto/comunicacao.md'
 
   - Elétrica:
     - Proposta de Solução: 'Eletrica/solucao.md'
@@ -22,7 +23,7 @@ pages:
     - Mapeamento do Processo: 'Software/processo.md'
     - Principais Decisões do Projeto: 'Software/decisoes.md'
     - Proposta de Solução: 'Software/solucao.md'
-
+    - Manual de Identidade Visual: 'Software/manual.md'
 
 
   - Other Pages: index.md
