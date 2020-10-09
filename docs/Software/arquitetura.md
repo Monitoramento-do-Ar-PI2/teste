@@ -1,6 +1,6 @@
 # Zéfiro
 ## Arquitetura
-### Versão 1.3
+### Versão 1.4
 
 ## Histórico de Revisão
 
@@ -10,6 +10,7 @@
 |11/09/2020|1.1|Criação dos diagramas de pacotes|Amanda Muniz e Vitor Cardoso|
 |13/09/2020|1.2|Criação do diagrama de classes e refatoração do diagrama de relações|Amanda Muniz, Luciana Ribeiro e Calebe Rios|
 |20/09/2020|1.3|Criação dos tópicos 1, 3 e 4|Amanda Muniz|
+|08/10/2020|1.4|Diagramação|Amanda Muniz|
 
 
 # 1. Introdução
@@ -130,20 +131,27 @@ As principais alternativas à escolha do flutter são: React-Native e desenvolvi
 
 ### 4.2.1 Diagrama de pacotes
 
+#### 4.2.1.1 Diagrama de pacotes Zéfiro-APP
+
 ![](./img/pacote1.png)
 
-Diagrama de pacotes do Zéfiro-APP
+<p align="justify">&emsp;&emsp;A organização interna do serviço de front-end será feito utlizando quatro pacotes principais, o <i>lib</i>, o <i>tests</i>, o <i>android</i> e o <i>iOS</i>. Os dois primeiros são os que guardaram toda a lógica e código fonte do Zéfiro-APP. Enquanto as pastas <i>android</i> e <i>iOS</i> guardarão a lógica responsável por fazer o aplicativo funcionar nos dois sistemas.</p>
+
+#### 4.2.1.2 Diagrama de pacotes Zéfiro-API
 
 ![](./img/pacote2.png)
 
-Diagrama de pacotes do Zéfiro-API
+<p align="justify">&emsp;&emsp;O serviço de backend Zéfiro-API será organizado com uma pasta principal, chamada de <i>src</i> e outras seis pastas para melhor divisão do código-fonte. O pacote <i>db</i> é onde ficarão as conexões com o banco de dados MongoDB; o <i>models</i> guardará as classes com seus respectivos métodos; o <i>requests</i> terá todas as requisições que o Zéfiro-API precisará fazer para sistemas externos; o <i>tests</i> terá os testes unitários feitos no sistema; o <i>schemas</i> guardará as tabelas do banco de dados; e, por fim, o <i>utils</i> terá todo e qualquer código que auxilie no funcionamento do Zéfiro-API.</p>
 
 ### 4.2.2 Diagrama de Classes
 
 ![](./img/classes.png)
 
-Diagrama de classes do Zéfiro-API
+<p align="justify">&emsp;&emsp;Para o desenvolvimento do software Zéfiro, será necessário a criação de duas classes, <i>Station</i> e <i>Notification</i>. A primeira destas é responsável por guardar os dados que serão recebidos das estações de monitoramente via requisição HTTP. Ela é a classe principal do sistema, pois é ela que guarda o cerne do sistema. O cálculo do índice de qualidade do ar, a lista quantidade de poluentes no ar, a lista de estações e a criação dos gráficos serão métodos dela. Já a segunda classe, <i>Notification</i>, será responsável por lidar com os três tipos de notificações existentes no software. Ela não terá atributos, pois as informações necessários para seus metódos serão recebidos tanto da classe Station quanto da requisição do Zéfiro-APP.</p>
 
+### 4.2.3 Diagrama de Classes
 
+![](./img/sequencia.png)
 
+<p align="justify">&emsp;&emsp;O diagrama de sequência descreve tanto a interação do usuário com o sistema como a interação entre serviços internos e externos. Todas as atividades que deverão ser realizadas pelo Zéfiro estão descritas de forma sequencial por meio de atividades de pedido e retorno. Além disso, indica a duração total que cada serviço precisa para realizar todas as atividades das quais é responsável.</p> 
 
