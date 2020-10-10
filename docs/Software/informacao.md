@@ -1,4 +1,4 @@
-# Manual de Identidade Visual
+# Arquitetura da Informação
 
 Este é um guia técnico para uso dos padrões visuais e verbais na comunicação da nossa marca Zéfiro.
 

@@ -25,7 +25,7 @@ pages:
     - Mapeamento do Processo: 'Software/processo.md'
     - Principais Decisões do Projeto: 'Software/decisoes.md'
     - Proposta de Solução: 'Software/solucao.md'
-    - Manual de Identidade Visual: 'Software/manual.md'
+    - Arquitetura da Informação: 'Software/informacao.md'
 
 
   - Other Pages: index.md
