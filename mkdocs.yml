@@ -24,6 +24,7 @@ pages:
     - Arquitetura: 'Software/arquitetura.md'
     - Mapeamento do Processo: 'Software/processo.md'
     - Principais Decisões do Projeto: 'Software/decisoes.md'
+    - Requisitos do Produto: 'Software/requisitos.md'
     - Proposta de Solução: 'Software/solucao.md'
     - Arquitetura da Informação: 'Software/informacao.md'
 
