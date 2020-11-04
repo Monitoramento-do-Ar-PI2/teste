@@ -15,6 +15,7 @@ pages:
     - Plano de Gerenciamento de Comunicação: 'Projeto/comunicacao.md'
 
   - Elétrica:
+    - Requisitos: 'Eletrica/requisitos.md'
     - Proposta de Solução: 'Eletrica/solucao.md'
   
   - Estrutura: 
