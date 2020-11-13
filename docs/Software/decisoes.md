@@ -86,6 +86,19 @@ Dentre os Objetivos de Desenvolvimento Sustentável elencados pela ONU, os três
 **Meta 13.b**: Promover mecanismos para a criação de capacidades para o planejamento relacionado à mudança do clima e à gestão eficaz, nos países menos desenvolvidos, inclusive com foco em mulheres, jovens, comunidades locais e marginalizadas
 
 
+## **Escolha das tecnologias**
+
+Para o desenvolvimento do Zéfiro, as tecnologias Flutter, NodeJS, MongoDB, Google Maps API, Alexa Kit foram escolhidas com base em três critérios principais: necessidades arquiteturais do sistema, conhecimento prévio e curva de aprendizado. O primeiro critério é importante, pois a escolha tecnológica deve sempre ter como objetivo a implementação da arquitetura do software. Os demais critérios levam em conta as experiências posteriores que os desenvolvedores possuem.
+
+## **Escolha das diagramações**
+
+Para descrever a arquitetura do software e seu comportamento interno foi decidido criar quatro diagramas distintos. O primeiro deles é o Diagrama de Relações que mostra as fronteiras do software e como as diferentes partes do mesmo se comunicam entre si. O diagrama de classes foi criado para mostrar como a estrutura do backend deve ser implementada. O diagrama de pacotes define a estrutura dos módulos e a dependência entre eles. Foi decidido criar dois diagramas de pacotes distintos: o do Zéfiro-APP e o do Zéfiro-API. Por último, foi criado um diagrama de sequência para descrever os diferentes processos que deverão ocorrer entre as diferentes partes do software.
+
+## **Priorização das histórias de usuário**
+
+Para escolher a ordem de implementação das features foi levado em conta o que é o cerne do software e como ele agrega valor ao usuário. Como todo o Zéfiro se alimenta da qualidade do ar e dos poluentes, essas partes precisam ser feitas primeiro. Com elas entregues e em funcionamento, será possível a implementação das notificações e do gráfico de histórico.
+
+
 
 
 

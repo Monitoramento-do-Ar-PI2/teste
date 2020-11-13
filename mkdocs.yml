@@ -9,8 +9,13 @@ pages:
   - O Projeto:
     - Documento de Visão: 'Projeto/doc-visao.md'
     - Termo de Abertura do Projeto: 'Projeto/tap.md'
+    - Plano de Comunicação: 'Projeto/comunicacao.md'
+    - Plano de Metodologia: 'Projeto/metodologia.md'
+    - Plano de Riscos: 'Projeto/riscos.md'
+    - Plano de Gerenciamento de Comunicação: 'Projeto/comunicacao.md'
 
   - Elétrica:
+    - Requisitos: 'Eletrica/requisitos.md'
     - Proposta de Solução: 'Eletrica/solucao.md'
   
   - Estrutura: 
@@ -20,5 +25,9 @@ pages:
     - Arquitetura: 'Software/arquitetura.md'
     - Mapeamento do Processo: 'Software/processo.md'
     - Principais Decisões do Projeto: 'Software/decisoes.md'
+    - Requisitos do Produto: 'Software/requisitos.md'
     - Proposta de Solução: 'Software/solucao.md'
+    - Arquitetura da Informação: 'Software/informacao.md'
 
+
+  - Other Pages: index.md

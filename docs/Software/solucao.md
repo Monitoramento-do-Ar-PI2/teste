@@ -89,7 +89,7 @@ Para o desenvolvimento do software, faz-se necessário o consumo de dados de fon
 
 * Google Maps API
 
-![](./img/arq.png)
+![](./img/relacao.png)
 
 ### 2.3 Representação dos Serviços
 
@@ -109,29 +109,6 @@ Além do cálculo, as informações de quais elementos químicos estão presente
 
 A última funcionalidade presente neste serviço é a exibição de uma mapa contendo todas as estações de monitoramento do ar e seus respectivos status. Para isso ser feito será necessário o consumo da Google Maps API, de forma que auxilie a criação desse mapa de forma mais segura.
 
-### 2.4 Tecnologias
-
-#### 2.4.1 Flutter
-
-O Flutter é o framework construído pela Google com objetivo de facilitar o desenvolvimento de aplicativos móveis, multiplataforma, ele utiliza o Dart como linguagem de programação. As principais alternativas à escolha do flutter são: React-Native e desenvolvimento nativo. Ao comparar as alternativas apresentadas o flutter foi escolhido, pois apresenta melhor desempenho em alguns aspectos como memória e uso de CPU, principalmente comparado ao React-Native. Já em comparação com o desenvolvimento nativo, apesar do desempenho ser muito parecido, o flutter vence pela possibilidade do desenvolvimento multiplataforma, exigindo menos recursos para alcançar um público maior. Além dos aspectos técnicos de cada abordagem, foi levada em conta a familiaridade de parte da equipe com o flutter. (DEMEDYUK; TSYBULSKYI, 2020).
-
-#### 2.4.2 MongoDB
-
-O MongoDB é uma base de dados baseada em NoSQL, orientada à objetos, que são mantidos como documentos dentro de coleções, em vez de colunas dentro de tabelas, como é feito em bancos relacionais. O MongoDB apresenta características como: alta disponibilidade, alta performance, fácil escalabilidade, flexibilidade e possui recursos para auxiliar aplicações baseadas em dados geoespaciais, tais como o Zéfiro. Além dos aspectos técnicos do MongoDB, foi levada em conta a experiência da equipe com esta tecnologia (JAYARAM, 2016).
-
-#### 2.4.3 Node Js
-
-Node Js é um ambiente de execução, open-source, que permite o desenvolvimento de aplicações utilizando o JavaScript como linguagem de programação. As principais vantagens da escolha do Node Js são: performance, disponibilidade e variedade de pacotes reutilizáveis, comunidade/ecossistema muito ativo e alta disponibilidade de documentação. Além destas vantagens, o fato da equipe possuir experiência com esta tecnologia, também motivou a escolha (MDN WEB DOCS, 2020).
-
-
-#### 2.4.4 Alexa
-
-A Alexa é um serviço de voz baseado em nuvem da Amazon. É compatível com diversos dispositivos e permite que o usuário interaja com a tecnologia, de forma mais intuitiva. O Alexa Skill Kit será utilizado no desenvolvimento do Zéfiro Alexa Skill, disponibilizando ao usuário uma interface alternativa para uso das funcionalidades do Zéfiro (AMAZON ALEXA, 2020).
-
-#### 2.4.5 Google Maps API
-
-Trabalhar com dados relacionados ao monitoramento da qualidade do ar, por meio de estações distribuídas geograficamente, traz a necessidade da obtenção dos respectivos dados geográficos. O Google Maps Platform possui diversos serviços para fornecimento deste tipo de dado e o valor cobrado é proporcional ao uso. É uma plataforma de alta disponibilidade e confiabilidade, que, além de fornecer um crédito mensal gratuito, disponibiliza serviços para fornecimento de mapas estáticos e dinâmicos gratuitamente, dentro da taxa de uso estabelecida, para uso em dispositivos móveis (GOOGLE, 2020).
-
 ### 2.5 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 #### 2.5.1 Diagrama de Pacotes
@@ -140,7 +117,6 @@ Trabalhar com dados relacionados ao monitoramento da qualidade do ar, por meio d
 
 
 ![](./img/pacote2.png)
-
 
 #### 2.5.2 Diagrama de Classes
 
