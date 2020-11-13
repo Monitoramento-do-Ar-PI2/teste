@@ -89,6 +89,30 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../../Projeto/comunicacao/">Plano de Comunicação</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/metodologia/">Plano de Metodologia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/riscos/">Plano de Riscos</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/comunicacao/">Plano de Gerenciamento de Comunicação</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
@@ -97,6 +121,12 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elétrica <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Eletrica/requisitos/">Requisitos</a>
+</li>
+
                         
                             
 <li >
@@ -147,12 +177,30 @@
 
                         
                             
+<li >
+    <a href="../requisitos/">Requisitos do Produto</a>
+</li>
+
+                        
+                            
 <li class="active">
     <a href="./">Proposta de Solução</a>
 </li>
 
                         
+                            
+<li >
+    <a href="../informacao/">Arquitetura da Informação</a>
+</li>
+
+                        
                         </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../..">Other Pages</a>
                     </li>
                 
                 
@@ -165,12 +213,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../decisoes/">
+                        <a rel="prev" href="../requisitos/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../informacao/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -192,7 +240,6 @@
                 <li class="third-level"><a href="#21-escopo-da-aplicacao">2.1 Escopo da aplicação</a></li>
                 <li class="third-level"><a href="#22-definicao-de-arquitetura">2.2 Definição de Arquitetura</a></li>
                 <li class="third-level"><a href="#23-representacao-dos-servicos">2.3 Representação dos Serviços</a></li>
-                <li class="third-level"><a href="#24-tecnologias">2.4 Tecnologias</a></li>
                 <li class="third-level"><a href="#25-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">2.5 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</a></li>
     </ul>
 </div></div>
@@ -258,7 +305,7 @@
 <ul>
 <li>Google Maps API</li>
 </ul>
-<p><img alt="" src="../img/arq.png" /></p>
+<p><img alt="" src="../img/relacao.png" /></p>
 <h3 id="23-representacao-dos-servicos">2.3 Representação dos Serviços</h3>
 <h4 id="231-zefiro-app">2.3.1 Zéfiro APP</h4>
 <p>O Zéfiro APP será uma aplicação mobile responsável pelo contato direto com o usuário. Esta precisará seguir uma arquitetura da informação bem definida e garantir acessibilidade. Ela é responsável também por exibir um gráfico com o histórico do indicador de qualidade do ar, apresentar informações sobre quais poluentes o usuário está respirando naquele momento e um mapa com as estações de monitoramento do ar. Precisa ainda enviar notificação para o usuário e exibir um alerta de fumaças.</p>
@@ -268,17 +315,6 @@
 <p>O Zéfiro API é responsável por lidar com o core do projeto - monitoramento da qualidade do ar. Para isso ele possui diversas funcionalidades, a principal delas é o cálculo da qualidade do ar, feita de acordo com a faixa de qualidade do ar internacional e utilizando as informações coletadas dos poluentes, para que com isso possa existir a criação de gráficos que serão apresentados ao usuário.</p>
 <p>Além do cálculo, as informações de quais elementos químicos estão presentes, suas quantidades e o indicativo de fumaça serão disponibilizados para o usuário. Além disso, o Zéfiro APP precisará fazer o envio de notificações ao usuário sempre que a qualidade do ar estiver baixa.</p>
 <p>A última funcionalidade presente neste serviço é a exibição de uma mapa contendo todas as estações de monitoramento do ar e seus respectivos status. Para isso ser feito será necessário o consumo da Google Maps API, de forma que auxilie a criação desse mapa de forma mais segura.</p>
-<h3 id="24-tecnologias">2.4 Tecnologias</h3>
-<h4 id="241-flutter">2.4.1 Flutter</h4>
-<p>O Flutter é o framework construído pela Google com objetivo de facilitar o desenvolvimento de aplicativos móveis, multiplataforma, ele utiliza o Dart como linguagem de programação. As principais alternativas à escolha do flutter são: React-Native e desenvolvimento nativo. Ao comparar as alternativas apresentadas o flutter foi escolhido, pois apresenta melhor desempenho em alguns aspectos como memória e uso de CPU, principalmente comparado ao React-Native. Já em comparação com o desenvolvimento nativo, apesar do desempenho ser muito parecido, o flutter vence pela possibilidade do desenvolvimento multiplataforma, exigindo menos recursos para alcançar um público maior. Além dos aspectos técnicos de cada abordagem, foi levada em conta a familiaridade de parte da equipe com o flutter. (DEMEDYUK; TSYBULSKYI, 2020).</p>
-<h4 id="242-mongodb">2.4.2 MongoDB</h4>
-<p>O MongoDB é uma base de dados baseada em NoSQL, orientada à objetos, que são mantidos como documentos dentro de coleções, em vez de colunas dentro de tabelas, como é feito em bancos relacionais. O MongoDB apresenta características como: alta disponibilidade, alta performance, fácil escalabilidade, flexibilidade e possui recursos para auxiliar aplicações baseadas em dados geoespaciais, tais como o Zéfiro. Além dos aspectos técnicos do MongoDB, foi levada em conta a experiência da equipe com esta tecnologia (JAYARAM, 2016).</p>
-<h4 id="243-node-js">2.4.3 Node Js</h4>
-<p>Node Js é um ambiente de execução, open-source, que permite o desenvolvimento de aplicações utilizando o JavaScript como linguagem de programação. As principais vantagens da escolha do Node Js são: performance, disponibilidade e variedade de pacotes reutilizáveis, comunidade/ecossistema muito ativo e alta disponibilidade de documentação. Além destas vantagens, o fato da equipe possuir experiência com esta tecnologia, também motivou a escolha (MDN WEB DOCS, 2020).</p>
-<h4 id="244-alexa">2.4.4 Alexa</h4>
-<p>A Alexa é um serviço de voz baseado em nuvem da Amazon. É compatível com diversos dispositivos e permite que o usuário interaja com a tecnologia, de forma mais intuitiva. O Alexa Skill Kit será utilizado no desenvolvimento do Zéfiro Alexa Skill, disponibilizando ao usuário uma interface alternativa para uso das funcionalidades do Zéfiro (AMAZON ALEXA, 2020).</p>
-<h4 id="245-google-maps-api">2.4.5 Google Maps API</h4>
-<p>Trabalhar com dados relacionados ao monitoramento da qualidade do ar, por meio de estações distribuídas geograficamente, traz a necessidade da obtenção dos respectivos dados geográficos. O Google Maps Platform possui diversos serviços para fornecimento deste tipo de dado e o valor cobrado é proporcional ao uso. É uma plataforma de alta disponibilidade e confiabilidade, que, além de fornecer um crédito mensal gratuito, disponibiliza serviços para fornecimento de mapas estáticos e dinâmicos gratuitamente, dentro da taxa de uso estabelecida, para uso em dispositivos móveis (GOOGLE, 2020).</p>
 <h3 id="25-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">2.5 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h3>
 <h4 id="251-diagrama-de-pacotes">2.5.1 Diagrama de Pacotes</h4>
 <p><img alt="" src="../img/pacote1.png" /></p>
