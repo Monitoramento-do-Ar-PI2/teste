@@ -14,6 +14,7 @@ pages:
     - Plano de Riscos: 'Projeto/riscos.md'
     - Plano de Gerenciamento de Comunicação: 'Projeto/comunicacao.md'
     - Manuais do Zéfiro: 'Projeto/manuais.md'
+    - Relatórios: 'Projeto/relatorios.md'
 
   - Elétrica:
     - Requisitos: 'Eletrica/requisitos.md'
