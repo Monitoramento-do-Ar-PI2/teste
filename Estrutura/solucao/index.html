@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>Documentação - Monitoramento do Ar</title>
+    <title>Proposta de Solução - Monitoramento do Ar</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -83,24 +83,45 @@
 </li>
 
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elétrica <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
                             
 <li >
-    <a href="../about/">About</a>
+    <a href="../../Projeto/tap/">Termo de Abertura do Projeto</a>
 </li>
 
                         
                             
-<li class="active">
-    <a href="./">Documentação</a>
+<li >
+    <a href="../../Projeto/comunicacao/">Plano de Comunicação</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/metodologia/">Plano de Metodologia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/riscos/">Plano de Riscos</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/comunicacao/">Plano de Gerenciamento de Comunicação</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/manuais/">Manuais do Zéfiro</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Projeto/relatorios/">Relatórios</a>
 </li>
 
                         
@@ -110,18 +131,33 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elétrica <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../Estrutura/estrutura/">About</a>
+    <a href="../../Eletrica/requisitos/">Requisitos</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../Estrutura/doc/">Documentação</a>
+    <a href="../../Eletrica/solucao/">Proposta de Solução</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estrutura <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">Proposta de Solução</a>
 </li>
 
                         
@@ -136,13 +172,37 @@
                         
                             
 <li >
-    <a href="../../Software/software/">About</a>
+    <a href="../../Software/arquitetura/">Arquitetura</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../Software/doc/">Documentação</a>
+    <a href="../../Software/processo/">Mapeamento do Processo</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Software/decisoes/">Principais Decisões do Projeto</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Software/requisitos/">Requisitos do Produto</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Software/solucao/">Proposta de Solução</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Software/informacao/">Arquitetura da Informação</a>
 </li>
 
                         
@@ -165,12 +225,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../about/">
+                        <a rel="prev" href="../../Eletrica/solucao/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../../Estrutura/estrutura/">
+                        <a rel="next" href="../../Software/arquitetura/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -184,12 +244,53 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#documentacao-eletrica">Documentação Elétrica</a></li>
+        <li class="first-level active"><a href="#solucao-estrutural">Solução Estrutural</a></li>
+            <li class="second-level"><a href="#1-requisitos-de-estrutura">1. Requisitos de Estrutura</a></li>
+                
+            <li class="second-level"><a href="#2-solucao-de-estrutura">2. Solução de Estrutura</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="documentacao-eletrica">Documentação Elétrica</h1></div>
+<h1 id="solucao-estrutural">Solução Estrutural</h1>
+<h2 id="1-requisitos-de-estrutura">1. Requisitos de Estrutura</h2>
+<ul>
+<li>
+<p>Alocar e proteger fisicamente os componentes que compõem as partes eletrônicas do projeto, sendo esses: placas de circuito, sondas(sensores), bateria e painel solar.</p>
+</li>
+<li>
+<p>Resistência a ambiente externo</p>
+<ul>
+<li>resistência a raios UV e intemperismo</li>
+<li>resistência a chuva baseada na norma ABNT NBR IEC 60529 - Graus de proteçãoprovidos por invólucros (Códigos IP) IP52</li>
+</ul>
+</li>
+<li>
+<p>IP52 [protegido contra ingresso de poeira (o ingresso de poeira não está totalmente evitado, mas a poeira não deve ingressar em quantidade que possa interferir na operação do equipamento ou prejudicar segurança. - protegido contra queda de água com inclinação de até 15o com a vertical, gotas caindo na vertical não devem provocar efeitos prejudiciais quando o
+invólucro e inclinado num angulo até 15o de cada lado da vertical)]</p>
+</li>
+<li>
+<p>Sistema automatizado de deslocamento para otimização de captação de energia em painel
+solar.</p>
+</li>
+<li>
+<p>Fácil manutenção</p>
+</li>
+<li>
+<p>Fácil instalação</p>
+</li>
+</ul>
+<h2 id="2-solucao-de-estrutura">2. Solução de Estrutura</h2>
+<p>O sistema de monitoramento do ar tem como foco a facilitar a instalação, operação e a manutenção. Sendo assim, o equipamento deverá ser leve, de fácil acesso a componentes internos e ao mesmo tempo resistente para funcionar nas diversas condições ambientais, como exposição ao Sol, chuva, rajadas, entre outros. Tais características tornam o dispositivo portátil o suficiente para possibilitar a instalação em diferentes regiões de forma a mapear a qualidade do ar de uma área significativamente maior.</p>
+<p>A estrutura consiste num gabinete em forma de torre onde ficarão o sistema de alimentação e o de sensoriamento. Internamente a torre é dividida em dois espaços, um estará alojados os circuitos eletrônicos de alimentação, enquanto o outro será um mini túnel de vento onde os sensores irão analisar a qualidade do ar circundante. Conforme mostra a Fig.1, na lateral desse gabinete haverá uma plataforma móvel onde será instalado o painel solar, essa plataforma terá um grau de liberdade possibilitando o painel solar movimentar na direção azimutal.</p>
+<p>Este gabinete será montado sobre mancais que dará a estação, um segundo grau de liberdade, podendo girar em seu próprio eixo em que se prenderá por presilhas em uma haste metálica. Sendo assim, a estrutura permitirá a inserção de um sistema de rastreamento solar de maneira eficiente e discreta. A haste foi escolhida pois permite uma instalação de módulos adjacentes, exemplo antenas de comunicações.</p>
+<p><img alt="cad_pre" src="../img/cad_pre.jpeg" />
+Figura 1: CAD Preliminar superior da estação de monitoramento de ar.</p>
+<p>Haverá uma grelha na parte de baixo (Fig. 2) do gabinete de forma a permitir a entrada de ar para o sistema, tanto para o monitoramento, quando para a refrigeração dos componentes elétricos. Para o sistema de monitoramento, internamente terá um tubo de Venturi de forma que o escoamento de ar seja laminar ao atravessar os sensores. Assaídas de ar serão nas laterais, pois facilitará a saída do ar que estará com uma temperatura mais elevada do que o ambiente.</p>
+<p><img alt="cad_pos" src="../img/cad_pos.png" /></p>
+<p>Figura 2: CAD Preliminar do gabinete, dando destaque ao mancal de suporte, a grelha de entrada
+de ar e as saídas de ar laterais.</p></div>
         
         
     </div>
