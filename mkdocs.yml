@@ -13,6 +13,7 @@ pages:
     - Plano de Metodologia: 'Projeto/metodologia.md'
     - Plano de Riscos: 'Projeto/riscos.md'
     - Plano de Gerenciamento de Comunicação: 'Projeto/comunicacao.md'
+    - Manuais do Zéfiro: 'Projeto/manuais.md'
 
   - Elétrica:
     - Requisitos: 'Eletrica/requisitos.md'
